@@ -1,0 +1,31 @@
+{
+  "name": "is-not-empty",
+  "version": "0.1.0",
+  "description": "Check emptiness of some types",
+  "author": "Krisztian Nagy <chrisakakay@gmail.com> (http://chrisakakay.github.io/)",
+  "homepage": "https://github.com/chrisakakay/is-not-empty",
+  "repository": "chrisakakay/is-not-empty",
+  "bugs": {
+    "url": "https://github.com/chrisakakay/is-not-empty/issues",
+    "email": "chrisakakay@gmail.com"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "jest",
+    "prepush": "npm run lint && npm run test"
+  },
+  "keywords": [
+    "empty",
+    "object",
+    "array"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "jest": "^18.1.0"
+  }
+}
