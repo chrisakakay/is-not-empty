@@ -1,7 +1,7 @@
 is-not-empty
 =========
 
-Simple module for checking object or array for emptyness
+Simple module for checking object or array for emptiness
 
 
 ## Installation
